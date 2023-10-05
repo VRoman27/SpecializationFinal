@@ -1,3 +1,7 @@
+/*
+ * Класс Nursery прозводит учёт животных
+ */
+
 package Programm;
 
 import java.util.ArrayList;
@@ -13,6 +17,7 @@ public class Nursery {
 
     public void showAnimals(){
         StringBuilder text = new StringBuilder("Список животных:\n");
+        text.append("#| Группа\t|Вид\t|Кличка\t|Дата рождения\n");
         for (int i = 0; i < animals.size(); i++) {
             text.append(i + "| "+ animals.get(i).toString() + "\n");
         }

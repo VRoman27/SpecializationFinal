@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import Programm.AnimalsEnum;
 
-public class Animal {    
+public abstract class Animal {    
 
     private int id;
     private String name;
@@ -71,7 +71,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return this.getGroup() + " " + this.getType() + " [name: " + name + ", birthDate: " + birthDate + ", commands: " + commands + "]";
+        return this.getGroup() + "\t|" + this.getType() + "\t|" + name + "\t|" + birthDate;
     }
 
 }

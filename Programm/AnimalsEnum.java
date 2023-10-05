@@ -1,12 +1,16 @@
+/*
+ * AnimalsEnum хранит названия классов в удобном для пользователя виде
+ */
+
 package Programm;
 
 public enum AnimalsEnum {
-    CAT("кошка"),
-    DOG("собака"),
-    HAMSTER("хомяк"),
-    HORSE("лошадь"),
-    CAMEL("верблюд"),
-    DONKEY("осёл"),
+    CAT("Кошка"),
+    DOG("Собака"),
+    HAMSTER("Хомяк"),
+    HORSE("Лошадь"),
+    CAMEL("Верблюд"),
+    DONKEY("Осёл"),
     PET("Домашний"),
     PACKANIMAL("Вьючный"),
     ANIMAL("Животное");
